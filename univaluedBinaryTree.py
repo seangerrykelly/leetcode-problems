@@ -16,7 +16,6 @@ class Solution(object):
         
         univalue = root.val
         nodeQueue = [root]
-        
         while nodeQueue:
             curr = nodeQueue.pop(0)
             if curr is None:
